@@ -3,14 +3,13 @@ package model
 import "time"
 
 type Client struct {
-	Name       string
-	TableNum   int
-	EntryTime  time.Time
-	ExitTime   time.Time
-	IsWaiting  bool
-	IsPresent  bool
-	HasSeated  bool
-	TotalHours int
+	Name      string
+	TableNum  int
+	EntryTime time.Time
+	ExitTime  time.Time
+	IsWaiting bool
+	IsPresent bool
+	HasSeated bool
 }
 
 type Event struct {
